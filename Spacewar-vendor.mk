@@ -587,6 +587,7 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.high.level2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level2.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.high.level3.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level3.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.high.level4.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.level4.conf \
+    vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.high.perf.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.high.perf.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.low.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.low.level1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.level1.conf \
     vendor/nothing/Spacewar/proprietary/vendor/etc/thermal.low.level2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal.low.level2.conf \
