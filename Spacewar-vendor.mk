@@ -8,10 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/odm/etc/aac_richtap.config:$(TARGET_COPY_OUT_ODM)/etc/aac_richtap.config \
     vendor/nothing/Spacewar/proprietary/product/etc/permissions/telephony_product_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/telephony_product_privapp-permissions-qti.xml \
-    vendor/nothing/Spacewar/proprietary/system/etc/permissions/com.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.dirac.acs.xml \
-    vendor/nothing/Spacewar/proprietary/system/etc/permissions/se.dirac.acs.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/se.dirac.acs.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/public.libraries.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries.txt \
-    vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/preinstalled-packages-dirac.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/preinstalled-packages-dirac.xml \
     vendor/nothing/Spacewar/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/nothing/Spacewar/proprietary/system_ext/bin/qccsyshal@1.2-service:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/qccsyshal@1.2-service \
@@ -359,8 +356,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/dirac/dirac_resource.dar:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/dirac_resource.dar \
-    vendor/nothing/Spacewar/proprietary/vendor/etc/dirac/interface.json:$(TARGET_COPY_OUT_VENDOR)/etc/dirac/interface.json \
     vendor/nothing/Spacewar/proprietary/vendor/etc/display/DPU660.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU660.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/display/DPU670.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU670.xml \
     vendor/nothing/Spacewar/proprietary/vendor/etc/display/DPU720.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/DPU720.xml \
@@ -724,7 +719,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libcppf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcppf.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdiag.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/libdirac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdirac.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libdrc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdrc.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libdsd2pcm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdsd2pcm.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/libfastcvdsp_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastcvdsp_stub.so \
@@ -853,7 +847,6 @@ PRODUCT_COPY_FILES += \
     vendor/nothing/Spacewar/proprietary/vendor/lib/rfsa/adsp/libvpp_ais_networks.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpp_ais_networks.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/rfsa/adsp/libvpt_action_recognition.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libvpt_action_recognition.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libasphere.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libasphere.so \
-    vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libdiraceffect-afm.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libdiraceffect-afm.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libqcbassboost.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcbassboost.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcreverb.so \
     vendor/nothing/Spacewar/proprietary/vendor/lib/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libqcvirt.so \
@@ -1481,9 +1474,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
-    DiracAudioControlService \
-    DiracAudioControlService_DMP \
-    NothingDiracService \
     CACertService \
     CneApp \
     IWlanService \
